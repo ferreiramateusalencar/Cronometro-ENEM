@@ -18,3 +18,15 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+@media (max-width:500px){
+    #countdown {
+        display: flex;
+        flex-direction: column;
+    }
+    #countdown > div{
+        flex-direction: row;
+        gap: 5px;
+        text-align: left;
+    }
+}
