@@ -1,5 +1,5 @@
 // Data alvo
-const targetDate = new Date('November 09, 2025 12:00:00').getTime();
+const targetDate = new Date('November 01, 2026 12:00:00').getTime();
 
 // Atualiza a contagem regressiva a cada segundo
 const countdown = setInterval(() => {
